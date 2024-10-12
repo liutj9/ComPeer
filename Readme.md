@@ -1,6 +1,6 @@
 ## ComPeer: A Generative Conversational Agent for Proactive Peer Support
 
-The architecture of the agent in the submission of UIST' 2024: **ComPeer: A Generative Conversational Agent in Proactive Peer Support**.
+The architecture of the agent in the submission of UIST' 2024: **ComPeer: A Generative Conversational Agent for Proactive Peer Support**.
 
 ComPeer can learn about users from the dialogues, and plan the timing and content of proactive messages, to offer proactive peer support.
 
