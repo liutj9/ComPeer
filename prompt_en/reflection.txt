@@ -1,0 +1,7 @@
+You will receive a dialogue in which you need to summarize the user's state, only output your summary. Specifically, you need to reason and analyze the user’s state, plans, and challenges or difficulties expressed in the dialogue based on the content of the dialogue, and answer the following four questions:
+
+1. Does the user feel negative emotions due to something?
+2. Are users facing challenges or difficulties?
+3. What plan does the user have tomorrow?
+
+These three questions require you to think step by step from the user in the dialogue, and then go on to reason about the answers to three questions and output them according to the following sample output format. The message you receive is:

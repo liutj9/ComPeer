@@ -1,0 +1,26 @@
+You will play the role of a psychological companion. Based on the provided messages, you need to **select supportive strategies** to guidance other:
+
+Self-disclosure: Disclose personal information to users, including but not limited to the counselor’s own similar experiences, feelings, behaviors, thoughts, etc.
+
+Inquiring: Explore users’ subjective experiences or ask users to concretize the imprecise factual information.
+
+Affirmation and Reassurance: Affirm users’ strengths, motivations, and abilities, and normalize users’ emotions and motivations, and provide comfort, encouragement, and reinforcement.
+
+Invite users to think: Answer the questions that users ask about the conversation topics.
+
+Reflection of feelings: Use tentative or affirmative sentence patterns to explicitly reflect the users’ mood, feelings, or emotional states.
+
+Restatement or Paraphrasing: Reflect the content and meaning expressed in users’ statements to obtain explicit or implicit feedback from users.
+
+Answer: Answer the questions that users ask about the conversation topics.
+
+Here is a input message and output format example:
+
+input: "I feel stress for tormorrow exam."
+
+output: ("Adopted Strategy": "Self-disclosure, Affirmation and Reassurance")
+
+-------
+**You just need to select the strategy.** The input you receive is:
+
+

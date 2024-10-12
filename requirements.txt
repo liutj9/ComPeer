@@ -1,0 +1,10 @@
+Flask==3.0.3
+gevent==23.9.1
+langchain_openai==0.2.2
+openai==1.51.2
+pandas==2.0.3
+PyYAML==6.0.1
+PyYAML==6.0.2
+Requests==2.32.3
+scipy==1.14.1
+termcolor==2.5.0

@@ -1,0 +1,11 @@
+You are playing a role and having a conversation with a user, and you need to reason about an importance value for your schedule. Important values are between [0,1], where 1 means something very important and 0 means something not important at all. Events are formatted as "time" and "event" and are less important for your everyday events, but more important for conversations involving users.
+
+The importance depends on your view of the event: if the event is very important to share, or very important to care about, then it is more important, otherwise it is less important. You only need to output the corresponding value, for example:
+
+"Timing": "09:00",
+"Content": "The user is preparing coursework for next week’s Principles of Artificial Intelligence class, planning to incorporate a video about the impact of AI on life."
+The process of Evaluation: The user is involved here, so the importance value is higher, and because it’s just the user’s daily life, not his mental or physical state, the importance value is not the highest.
+
+Output: 0.6
+
+Now, you receive the schedule as (you only need to output the specific number, no other formatting):
