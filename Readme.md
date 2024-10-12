@@ -4,9 +4,9 @@ The architecture of the agent in the submission of UIST' 2024: **ComPeer: A Gene
 
 ComPeer can learn about users from the dialogues, and plan the timing and content of proactive messages, to offer proactive peer support.
 
-Please click [here](#[ComPeer: A Generative Conversational Agent for Proactive Peer Support (arxiv.org)](https://arxiv.org/pdf/2407.18064)) to read our paper!
+Please click [here](https://arxiv.org/pdf/2407.18064) to read our paper!
 
-![workflow_ComPeer](D:\ComPeer\workflow_ComPeer.png)
+![workflow_ComPeer](workflow_ComPeer.png)
 
 *There are some words minors in our camera ready version. We have made the corrections in the provided link.*
 
@@ -24,11 +24,11 @@ pip install -r requirements.txt
 
 #### 2. Set IM bot
 
-ComPeer is deployed on QQ using [go-cqhttp]([Mrs4s/go-cqhttp: cqhttp的golang实现，轻量、原生跨平台. (github.com)](https://github.com/Mrs4s/go-cqhttp)). Before interacting with the agent, you need to download [QQ]([QQ Windows版-轻松做自己](https://im.qq.com/pcqq/index.shtml)) and register for a QQ account.
+ComPeer is deployed on QQ using [go-cqhttp](https://github.com/Mrs4s/go-cqhttp)). Before interacting with the agent, you need to download [QQ](https://im.qq.com/pcqq/index.shtml) and register for a QQ account.
 
 1. Download QQ on your phone/PC and register accounts.
 
-2. Download go-cqhttp at their [release page]([Releases · Mrs4s/go-cqhttp (github.com)](https://github.com/Mrs4s/go-cqhttp/releases)) to the ComPeer. Unzip go-cqhttp in the ComPeer.
+2. Download go-cqhttp at their [release page](https://github.com/Mrs4s/go-cqhttp/releases) to the ComPeer. Unzip go-cqhttp in the ComPeer.
 
    ```shell
    cd ComPeer
@@ -41,13 +41,13 @@ ComPeer is deployed on QQ using [go-cqhttp]([Mrs4s/go-cqhttp: cqhttp的golang实
    ./go-cqhttp
    ```
 
-4. The first startup will fail. Refer to [config.md]([go-cqhttp/docs/config.md at master · Mrs4s/go-cqhttp (github.com)](https://github.com/Mrs4s/go-cqhttp/blob/master/docs/config.md)) to fill in the generated `config.yaml`. After that, enter `./go-cqhttp` again. The following output means the setup is successful:
+4. The first startup will fail. Refer to [config.md](https://github.com/Mrs4s/go-cqhttp/blob/master/docs/config.md) to fill in the generated `config.yaml`. After that, enter `./go-cqhttp` again. The following output means the setup is successful:
 
    ```shell
    [INFO]: 登录成功
    ```
 
-[Here]([开始 | go-cqhttp 帮助中心](https://docs.go-cqhttp.org/guide/quick_start.html#基础教程)) is the document of the go-cqhttp deployment.
+[Here](https://docs.go-cqhttp.org/guide/quick_start.html#基础教程) is the Chinese document of the go-cqhttp deployment.
 
 #### 3. Initialize Agent setting
 
@@ -55,7 +55,7 @@ ComPeer is deployed on QQ using [go-cqhttp]([Mrs4s/go-cqhttp: cqhttp的golang实
 
 2. Design the persona of the CA. 
 
-   Fill your CA's prompt in `prompt_en`. You need to provide `persona_{user_id}.txt`, `proactive_{user_id}.txt`, and `schedule_generation_{user_id}.txt`. The prompt format and content can refer to the appendix of [our paper]([ComPeer: A Generative Conversational Agent for Proactive Peer Support (arxiv.org)](https://arxiv.org/pdf/2407.18064)) or the `prompt_en` files.
+   Fill your CA's prompt in `prompt_en`. You need to provide `persona_{user_id}.txt`, `proactive_{user_id}.txt`, and `schedule_generation_{user_id}.txt`. The prompt format and content can refer to the appendix of [our paper](https://arxiv.org/pdf/2407.18064) or the `prompt_en` files.
 
 3. Fill your user account in `user_states/user_ids.txt`. You can enter multiple QQ accounts to allow ComPeer to interact with different users (but you will also need to provide corresponding prompt files) 
 
