@@ -35,7 +35,7 @@ ComPeer is deployed on QQ using [go-cqhttp](https://github.com/Mrs4s/go-cqhttp))
    unzip [your_go-cqhttp_file.zip]
    ```
 
-3. For Linux, enter `./go-cqhttp` to start the bot。
+3. For Linux, enter `./go-cqhttp` to start the bot.
 
    ```shell
    ./go-cqhttp
